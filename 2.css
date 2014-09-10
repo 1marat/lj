@@ -987,7 +987,8 @@ box-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(
 
 
 .asset-body img {
-display: block;
-    margin-left: auto;
-    margin-right: auto;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
 }
