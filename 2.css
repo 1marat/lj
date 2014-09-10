@@ -989,7 +989,7 @@ box-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(
 .asset-body img {
 margin: auto;
 max-width: none; // this was needed for my particular instance
-position: absolute;
+position: relative;
 right: -50%;
 left: -50%;
 z-index: 0;
